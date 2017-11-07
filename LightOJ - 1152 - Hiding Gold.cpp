@@ -1,3 +1,12 @@
+/*
+The idea is based on creating graphs on adjacent nodes which has gold. 
+After that run a BPM and then subtract half of Max Match from the total golds. 
+Why half of Max Match??
+Let's assume, there are N golds those are not connected. We need N - dominos. 
+While doing matching we connect two nodes by one domino. So if there are X maximum matches then we need to reduce X from N. 
+As the graph is bidirectional it will produce twice of actual maximum matching. So here then X = Max_Match / 2 .
+*/
+
 #include<bits/stdc++.h>
 #define LL long long
 
