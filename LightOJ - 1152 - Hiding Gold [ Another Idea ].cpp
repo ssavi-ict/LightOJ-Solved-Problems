@@ -1,3 +1,14 @@
+/*
+Let's assume the complete grid as a Chess Board. So while connecting two adjacent nodes we simply denote as connecting two
+diiferent colored nodes. Based on this idea we will build the graph that off white nodes and black nodes ( 2 different color). 
+Now figure out the Max Matching and reduce it from Total Number of Golds. 
+Why ??
+When we are connecting two different colored nodes we can strictly say that it can be done by 1 domino . 
+So if N nodes are there and some of them are connected whose Max Matching is X the result will be N - Max_Match .
+*/
+
+
+
 #include<bits/stdc++.h>
 #define LL long long
 
